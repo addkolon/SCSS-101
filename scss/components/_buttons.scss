@@ -1,0 +1,18 @@
+@mixin button($-bgcolor, $-borderradius) {
+  padding: $base-padding;
+  font-size: calc($base-font-size * 0.9);
+  font-family: $base-font-family-sans-serif;
+  background-color: $-bgcolor;
+  border-radius: $-borderradius;
+  border: none;
+  color: $white-color;
+  font-weight: 600;
+}
+
+.btn-alert {
+  @include button($alert-color, $base-border-radius);
+}
+
+.btn-success {
+  @include button($success-color, $large-border-radius)
+}
