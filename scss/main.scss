@@ -1,6 +1,5 @@
-// UTILS
-/* UTILS */
-@import "./utils/variables";
+// ABSTRACTS (UTILS)
+@import "./abstract/variables";
 
 // BASE
 @import "./base/base";
@@ -10,5 +9,12 @@
 @import "./components/cards"; 
 
 // Layout 
-@import "./layout/header";
-@import "./layout/footer";
+@import "./layout/header",
+        "./layout/footer";
+
+// PAGES
+@import "./pages/front-page";
+
+// THEMES
+
+// VENDORS
