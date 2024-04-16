@@ -5,7 +5,12 @@ $primary-color: rgb(172, 172, 214);
 $white-color: white;
 $alert-color: rgb(129, 18, 18);
 $success-color: rgb(56, 159, 56);
-$normal-color: rgb(61, 61, 165);
+$normal-color: rgb(124, 24, 78);
+
+$light-peach: #FFE6D1;
+$peach: #E69E62;
+$dark-orange: #733E12;
+
 
 
 // TYPOGRPAHY
@@ -15,7 +20,9 @@ $base-font-family-serif: 'Times New Roman', Times, serif;
 
 // MARGINS AND PADDINGS
 $base-padding: 1rem;
+$base-margin: 1rem;
 
 $base-border-radius: .75rem;
 $small-border-radius: calc($base-border-radius / 2);
 $large-border-radius: calc($base-border-radius * 2);
+

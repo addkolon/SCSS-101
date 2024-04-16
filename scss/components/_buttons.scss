@@ -7,6 +7,13 @@
   border: none;
   color: $white-color;
   font-weight: 600;
+  cursor: pointer;
+  transition: all 0.4s ease;
+
+  &:hover {
+    // background-color: lighten($-bgcolor, 10%);
+    background-color: darken($-bgcolor, 10%);
+  }
 }
 
 .btn-alert {

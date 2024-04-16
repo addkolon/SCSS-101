@@ -1,0 +1,34 @@
+// PADDINGS
+
+.p-normal {
+  padding: $base-padding;
+}
+
+.p-small {
+  padding: calc($base-padding * 0.75);
+}
+
+.p-large {
+  padding: calc($base-padding * 1.25);
+}
+
+
+// MARGIN
+.m-normal {
+  margin: $base-margin;
+}
+
+.m-small {
+  margin: calc($base-margin * 0.75);
+}
+
+.m-large {
+  margin: calc($base-margin * 1.25);
+}
+
+
+// FLEX
+
+.d-flex {
+  display: flex;
+}

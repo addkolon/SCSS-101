@@ -1,3 +1,31 @@
+.p-normal {
+  padding: 1rem;
+}
+
+.p-small {
+  padding: 0.75rem;
+}
+
+.p-large {
+  padding: 1.25rem;
+}
+
+.m-normal {
+  margin: 1rem;
+}
+
+.m-small {
+  margin: 0.75rem;
+}
+
+.m-large {
+  margin: 1.25rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -21,6 +49,11 @@ body {
   border: none;
   color: white;
   font-weight: 600;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.btn-alert:hover {
+  background-color: #540c0c;
 }
 
 .btn-success {
@@ -32,17 +65,27 @@ body {
   border: none;
   color: white;
   font-weight: 600;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.btn-success:hover {
+  background-color: #2b792b;
 }
 
 .btn-normal {
   padding: 1rem;
   font-size: 0.9rem;
   font-family: "Gill Sans", sans-serif;
-  background-color: rgb(61, 61, 165);
+  background-color: rgb(124, 24, 78);
   border-radius: 0.75rem;
   border: none;
   color: white;
   font-weight: 600;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.btn-normal:hover {
+  background-color: #511033;
 }
 
 .card {
@@ -76,13 +119,13 @@ body {
   padding: 5%;
 }
 .hero-banner-portofino .hero-banner-content {
-  padding: 2rem;
   width: 40dvw;
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 0.75rem;
 }
 .hero-banner-portofino .hero-banner-content h1 {
   font-size: clamp(2rem, 5vw, 8rem);
+  color: rgb(124, 24, 78);
 }
 .hero-banner-portofino .hero-banner-content h3 {
   font-size: 2.5vw;
@@ -102,13 +145,13 @@ body {
   padding: 5%;
 }
 .hero-banner-pisa .hero-banner-content {
-  padding: 2rem;
   width: 40dvw;
   background-color: rgba(255, 255, 255, 0.85);
-  border-radius: 0;
+  border-radius: 0.75rem;
 }
 .hero-banner-pisa .hero-banner-content h1 {
   font-size: clamp(2rem, 5vw, 8rem);
+  color: rgb(124, 24, 78);
 }
 .hero-banner-pisa .hero-banner-content h3 {
   font-size: 2.5vw;
