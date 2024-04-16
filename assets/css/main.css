@@ -68,7 +68,6 @@ body {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  border: 1px solid red;
   height: 100dvh;
   display: flex;
   flex-direction: column;
@@ -80,11 +79,38 @@ body {
   padding: 2rem;
   width: 40dvw;
   background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 0.75rem;
 }
 .hero-banner-portofino .hero-banner-content h1 {
   font-size: clamp(2rem, 5vw, 8rem);
 }
 .hero-banner-portofino .hero-banner-content h3 {
+  font-size: 2.5vw;
+  margin-bottom: 1.5rem;
+}
+
+.hero-banner-pisa {
+  background-image: url("https://images.unsplash.com/photo-1591452193195-ac4a41416c5f?q=80&w=3269&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 65dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5%;
+}
+.hero-banner-pisa .hero-banner-content {
+  padding: 2rem;
+  width: 40dvw;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 0;
+}
+.hero-banner-pisa .hero-banner-content h1 {
+  font-size: clamp(2rem, 5vw, 8rem);
+}
+.hero-banner-pisa .hero-banner-content h3 {
   font-size: 2.5vw;
   margin-bottom: 1.5rem;
 }
