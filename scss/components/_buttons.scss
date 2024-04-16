@@ -16,3 +16,7 @@
 .btn-success {
   @include button($success-color, $large-border-radius)
 }
+
+.btn-normal {
+  @include button($normal-color, $base-border-radius)
+}
